@@ -14,7 +14,7 @@ export default defineConfig({
   proxy:{
     '/apii': {
       // target: 'http://10.238.77.120:8080',  // 接口域名
-      target: 'https://relaystaging.zhimi.com/',  // 接口域名
+      target: 'https://relaystaging.domain.com/',  // 接口域名
       changeOrigin: true,  //是否跨域
       pathRewrite: {
         '^/apii': ''   //需要rewrite的,
